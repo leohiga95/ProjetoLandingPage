@@ -1,0 +1,146 @@
+.modalProdutcsArea {
+    position:fixed;
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    background-color:rgba(255, 255, 255, 0.5);
+    display:none;
+    transition: all ease .5s;
+    justify-content: center;
+    align-items: center;
+    overflow-y:auto;
+}
+
+.modalProductsBody {
+    width: 250px;
+    height: 200px;
+    background-color:#FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px #999;
+    display:none;
+    flex-direction: column;
+    margin: 30px; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.productsModal {
+    flex:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productsModal img {
+    height: 100px;
+    width: 100px;
+    margin-top: 15px;
+}
+
+.productsInfo {
+    flex:1;
+    font-family:'Hepta Slab', Helvetica, Arial;
+    padding-bottom:20px;
+    align-items: center;  
+    justify-content: center;
+}
+
+.productsInfo h1 {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 20px;  
+    align-items: center;  
+}
+
+.productsInfo p {
+    font-size: 14px;
+}
+
+.productsInfo-actualPrice {
+    font-size:15px;
+    align-items: center; 
+    justify-content: center;
+}
+
+.headerModal {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(105, 233, 105);
+    width: 114%;
+}
+
+.closeModal {
+    background: rgb(231, 35, 35);
+    border: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    bottom: 92%;
+    left: 95%;
+    position: absolute;
+}
+
+/* Aside */
+aside {
+    background-color:#ffcdd2;
+    width:0vw;
+    font-family:'Hepta Slab', Helvetica, Arial;
+    transition:all ease .2s;
+    overflow-x:hidden;
+}
+
+aside.show {
+    width:30vw;
+}
+
+.cart--area {
+    margin-top: 30px; /* ajuste */
+    padding:20px;
+}
+
+.cart--area h1 {
+    display: relative;
+}
+
+
+
+.cart--totalitem {
+    padding:15px 0;
+    border-top:1px solid #d32f2f;
+    color:#315970;
+    display:flex;
+    justify-content: space-between;
+    font-size:15px;
+}
+
+.cart--totalitem span:first-child {
+    font-weight: bold;
+}
+
+.cart--totalitem.big {
+    font-size:20px;
+    color:#000;
+    font-weight: bold;
+}
+
+.cart--finalizar {
+    padding:20px 30px;
+    border-radius:20px;
+    background-color:#48d05f;
+    color:#FFF;
+    cursor:pointer;
+    text-align:center;
+    margin-top:20px;
+    border:2px solid #63f77c;
+    transition: all ease .2s;
+}
+
+.cart--finalizar:hover {
+    background-color:#35af4a;
+}

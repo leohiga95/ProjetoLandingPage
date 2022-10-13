@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/modal.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="headerLogin">
+            <p>
+                Deixe de ser um noob e vire um pro player - Periféricos em promoção todos os dias!
+            <p>
+            <a href="">  
+            <ion-icon name="person-circle-sharp"></ion-icon>
+            &nbsp;&nbsp;Login
+            </a>  
+        </div> <hr>
+        <div class="headerSearch">   
+            <div class="logo">
+                <a href="index.html">
+                    <img src="/images/logo.png" alt="">
+                </a>
+            </div>
+            <input class="searchField" placeholder="Pesquise aqui" type="text" name="" id="">
+            
+        </div> 
+        <div class="menuNav">
+            <ul>
+                <li><a href="#">TODOS OS PRODUTOS</a></li>
+                <li><a href="#">CADEIRA</a></li>
+                <li><a href="#">MEMÓRIA</a></li>
+                <li><a href="#">MONITOR</a></li>
+                <li><a href="#">MOUSE</a></li>
+                <li><a href="#">TECLADO</a></li>
+                <li><a href="#">MOUSEPAD</a></li>
+                <li><a href="#">GABINETE</a></li>
+                <li><a href="#">PLACA DE VÍDEO</a></li>
+                <li><a href="#">PROCESSADOR</a></li>
+            </ul>
+        </div>
+        <img src="images/imagem.webp" alt="">
+        <div class="navbar">
+            <h2>Produtos</h2>
+            <ul>
+                <li class='myCart'>
+                    <a href="cart.html">
+                        <p><ion-icon name="cart"></ion-icon>&nbsp;&nbsp;Meu Carrinho&nbsp;&nbsp;&nbsp;</ion-icon></p>
+                        <span id="carrinhoCompra" class="contador">0<span>
+                    </a>
+                </li>
+            </ul>  
+        </div>
+    </header>
+    
+    <!-- Produto na lista -->
+    <div class="models">
+        <div class="productsItem">           
+            <div class="productsItemImg">
+                <img src="" alt="">
+                <a class="addCart cart1" href="">Adicionar ao carrinho</a>
+            </div>
+            <div class="productsItemName">--</div>
+            <div class="productsItemDesc">--</div>
+            <div class="productsItemPrice">R$ --</div>
+        </div>
+    </div>
+
+    <main>
+        <div class="productsArea"></div>
+    </main>
+
+    <!-- aside do carrinho -->
+    
+    
+
+    <!--Janela Modal-->
+    <div class="modalProductsArea">    
+        <div class="modalProductsBody">
+            <div class="headerModal">
+                <p>Adicionado ao Carrinho</p>
+                <button class="closeModal">X</button>
+            </div>
+            <div class="productsModal">
+                <img src="" alt="">                
+            </div>            
+            <div class="productsInfo">
+                <h1>--</h1>         
+                <p class="productsInfo-actualPrice">R$ --</p>    
+            </div>        
+        </div>        
+    </div>
+        
+
+    <script src="produtos.js"></script>    
+    <script src="script.js"></script>   
+    <script src="cart.js"></script> 
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

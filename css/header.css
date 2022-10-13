@@ -1,0 +1,117 @@
+
+.headerLogin {    
+    display: flex;
+    justify-content: space-between;
+    padding: 0.7% 25%;; 
+    font-size: 18px;  
+    color: white; 
+}
+
+.headerLogin a {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.headerLogin a:hover {
+    color: #6164f3;
+}
+
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+}
+
+.contador {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #000000;
+    background-color: #6164f3;
+    align-items: center;
+    display: inline-flex;
+    justify-content: center;
+}
+
+.headerSearch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 20%;
+    color: white;
+}
+
+.searchField {
+    width: 40%;
+    height: 40px;
+    padding-left: 25px;
+    outline-style: none;
+    border-style: none;
+    box-shadow: 0 0 2px;
+    padding: 0 10px;
+}
+
+.searchField:focus {
+    border: 3px solid #6164f3;
+    box-shadow: 0 0 9px #6164f3;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(37, 36, 36);
+    color: white;
+    padding: 0.7% 12%;
+    width: 100%;
+    align-items: center;
+}
+
+.navbar a {
+    align-items: center;
+    display: flex;
+    color: white;
+}
+
+.navbar a p:hover {
+    color: #6164f3;
+}
+
+.logo {
+    width: 300px;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+}
+
+/*.headerSearch .logo {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 600;
+}*/
+
+.menuNav ul {
+    display: flex;    
+    gap: 4rem;
+    padding: 0.7% 10% ;
+    cursor: pointer;
+    background-color: #252424
+}
+
+.menuNav ul li a {
+    color: white;
+}
+
+.menuNav ul li a:hover {
+    color: #6164f3;
+}
+
+header img {
+    width: 70%;
+    height: 280px;
+    display: flex;
+    margin-left: 15%;
+}
